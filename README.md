@@ -1,115 +1,114 @@
 # Git and GitHub Commands for Windows
 
-## Install Git on Windows
+## 1. Install Git on Windows
 1. Download and install Git from [https://git-scm.com/download/win](https://git-scm.com/download/win).
 
-## Configure Git Settings
+## 2. Configure Git Settings
 Open Git Bash and configure your Git settings:
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 ```
 
-## Check Git Version
+## 3. Check Git Version
 ```bash
 git --version
 ```
 
-## Initialize a New Git Repository
+## 4. Initialize a New Git Repository
 ```bash
 git init
 ```
 
-## Check the Status of Your Repository
+## 5. Check the Status of Your Repository
 ```bash
 git status
 ```
 
-## Add Files to the Staging Area
+## 6. Add Files to the Staging Area
 ```bash
 git add .
 ```
 
-## Commit the Changes
+## 7. Commit the Changes
 ```bash
 git commit -m "Initial commit"
 ```
 
-## Create a New Repository on GitHub
+## 8. Create a New Repository on GitHub
 1. Go to [https://github.com/new](https://github.com/new) and follow the instructions to create a new repository.
 
-## Add the Remote Repository URL
+## 9. Add the Remote Repository URL
 ```bash
 git remote add origin https://github.com/yourusername/your-repo.git
 ```
 
-## Push Your Changes to the Remote Repository
+## 10. Push Your Changes to the Remote Repository
 ```bash
 git push -u origin master
 ```
 
-## Pull Changes from the Remote Repository
+## 11. Pull Changes from the Remote Repository
 ```bash
 git pull origin master
 ```
 
-## Clone an Existing Repository
+## 12. Clone an Existing Repository
 ```bash
 git clone https://github.com/yourusername/your-repo.git
 ```
 
-## Create a New Branch
+## 13. Create a New Branch
 ```bash
 git branch new-branch
 ```
 
-## Switch to the New Branch
+## 14. Switch to the New Branch
 ```bash
 git checkout new-branch
 ```
 
-## Merge Changes from Another Branch
+## 15. Merge Changes from Another Branch
 ```bash
 git merge branch-name
 ```
 
-## Delete a Branch
+## 16. Delete a Branch
 ```bash
 git branch -d branch-name
 ```
 
-## View the Commit History
+## 17. View the Commit History
 ```bash
 git log
 ```
 
-## View the Differences Between Commits
+## 18. View the Differences Between Commits
 ```bash
 git diff
 ```
 
-## Reset the Repository to a Previous Commit
+## 19. Reset the Repository to a Previous Commit
 ```bash
 git reset --hard commit-hash
 ```
 
-## Stash Changes
+## 20. Stash Changes
 ```bash
 git stash
 ```
 
-## Apply Stashed Changes
+## 21. Apply Stashed Changes
 ```bash
 git stash apply
 ```
 
-## View the List of Stashed Changes
+## 22. View the List of Stashed Changes
 ```bash
 git stash list
 ```
 
-## Drop a Specific Stash
+## 23. Drop a Specific Stash
 ```bash
 git stash drop stash@{index}
 ```
-
